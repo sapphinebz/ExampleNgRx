@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PokemonComponent } from './pokemon/pokemon.component';
 import { StoreModule } from '@ngrx/store';
 import { ApplicationState } from 'src/store/root.model';
 import { limitReducer, offsetReducer, pokemonsReducer } from 'src/store/root.reducer';
@@ -14,7 +13,6 @@ import { RootEffects } from 'src/store/root.effect';
 @NgModule({
   declarations: [
     AppComponent,
-    PokemonComponent,
   ],
   imports: [
     BrowserModule,

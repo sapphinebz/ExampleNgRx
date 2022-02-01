@@ -1,7 +1,5 @@
-import { AfterViewChecked, Component, NgZone, ViewChild } from '@angular/core';
-import { debounceTime, filter, fromEvent, Observable, Subject, take, tap } from 'rxjs';
+import { Component } from '@angular/core';
 import { RootStoreService } from 'src/store/root-store.service';
-import { PokemonComponent } from './pokemon/pokemon.component';
 
 @Component({
   selector: 'app-root',
